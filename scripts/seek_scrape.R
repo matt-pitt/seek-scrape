@@ -62,6 +62,6 @@ df_clean <- df %>%
 
 
 # stored as of todays date
-write.csv(df_clean, file = "C:/Users/mpitt/OneDrive - Macpherson Kelley/Documents/R/seek/data/clean_df.csv", row.names = FALSE)
+write.csv(df_clean, file = "C:/Users/mpitt/OneDrive - Macpherson Kelley/Documents/R/seek/data/data_analyst_jobs_from_seek.csv", row.names = FALSE)
 write.csv(df_clean, file = "C:/Users/mpitt/OneDrive - Macpherson Kelley/Documents/R/seek/data/jobs_df.csv", row.names = FALSE)
 
